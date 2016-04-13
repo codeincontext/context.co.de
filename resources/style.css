@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-size: 16px;
+}
+
+.mp {
+  max-width: 100ex;
+  padding: 0 9ex 1ex 4ex;
+  text-align: justify;
+  color: #131211;
+  font-family: monospace;
+  font-size: 0.875rem;
+  line-height: 1.42857142857143; /* 20px*/
+}
+
+p,pre,ul,ol,dl {
+  margin: 0 0 20px 0
+}
+
+h2 {
+  font-size: 1rem;
+  line-height: 1.25; /* 20px*/
+  color: #030201;
+  margin: 10px 0 0 0;
+  text-transform: uppercase;
+}
+
+p, dl {
+  margin-left: 8ex;
+}
+dt, dd {
+  display: inline;
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-left: 0;
+}
+
+a, a:link, a:hover {
+  color: #00D;
+}
+
+small {
+  opacity: 0.95;
+  color: #434241;
+  text-transform: uppercase;
+  font-variant: small-caps;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3em;
+}
+
+@media (max-width: 600px) {
+  .mp { padding: 0 2ex }
+  p, dl {margin-left:2ex}
+}
+
+@media (max-width: 500px) {
+  .mp { text-align: left; }
+}
