@@ -42,13 +42,16 @@ a, a:link, a:hover {
   color: #00D;
 }
 
-small {
-  opacity: 0.95;
+small, header {
+  opacity: 0.9;
   color: #434241;
   text-transform: uppercase;
-  font-variant: small-caps;
 }
 
+header {
+  margin-bottom: 20px;
+  text-align: center;
+}
 footer {
   text-align: center;
   margin-top: 3em;
